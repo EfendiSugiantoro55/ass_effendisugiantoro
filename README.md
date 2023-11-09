@@ -1,4 +1,6 @@
 # EFD BOOK STORE SHOP
+[Link text](https://website-name.com](https://efendisugiantoro55.github.io/ass_effendisugiantoro)
+
 Saya membuat webesite tentang toko buku, yang terdapat: 
 - Tailwind css
 - Javascript
