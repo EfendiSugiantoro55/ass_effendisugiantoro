@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kontak di Efendi Sugiantoro Book Store</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100 bg-center bg-no-repeat bg-cover" style="background-image: url('ceska1.png');">
     <!-- Konten halaman Anda di sini -->
 
-
-
-
-    <!-- header -->
+    <!-- Header -->
     <div class="bg-blue-500 p-2">
         <div class="container mx-auto flex justify-end">
             <ul>
@@ -24,7 +27,7 @@
             </ul>
         </div>
     </div>
-    <header class="bg-blue-700 text-white">
+    <header class="bg-blue-700 text-white fixed top-0 w-full z-10">
         <div class="container mx-auto p-4">
             <h1 class="text-3xl">
                 <a href="index.html">EFD BOOK STORE SHOP</a>
@@ -37,8 +40,8 @@
         </div>
     </header>
 
-    <!-- contact -->
-    <section class="py-10">
+    <!-- Contact -->
+    <section class="py-10 mt-20">
         <div class="container mx-auto text-white">
             <h3 class="text-2xl">CONTACT</h3>
             <p>
@@ -53,13 +56,13 @@
                 </div>
 
                 <div class="mb-4">
-                    <label for="email" class="block text-sm h">Email:</label>
+                    <label for="email" class="block text-sm">Email:</label>
                     <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
                 </div>
 
                 <div class="mb-4">
                     <label for="message" class="block text-sm">Pesan:</label>
-                    <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded" required class></textarea>
+                    <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded" required></textarea>
                 </div>
 
                 <button type="submit" class="bg-blue-500 text-white p-2 rounded">Kirim Pesan</button>
@@ -67,12 +70,14 @@
         </div>
     </section>
 
-    <!-- footer -->
-    <footer class="bg-blue-500 text-white">
-        <div class="container mx-auto p-2">
-            <small>&copy; 2023 - Efendi Sugiantoro, All Rights Reserved.</small>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <div class="fixed inset-x-0 bottom-0">
+        <footer class="bg-blue-500 text-white">
+            <div class="container mx-auto p-2">
+                <small>&copy; 2023 - Efendi Sugiantoro, All Rights Reserved.</small>
+            </div>
+        </footer>
+    </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
